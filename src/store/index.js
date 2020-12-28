@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    section: null
   },
   mutations: {
+    setSection(state, payload) {
+      state.section = payload
+    }
   },
   actions: {
   },

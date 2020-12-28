@@ -1,17 +1,23 @@
 <template>
   <div class="home">
-    <HelloWorld/>
+    <Home />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Home from "@/components/Home.vue";
+import {mapMutations } from "vuex";
 export default {
-  name: 'Home',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+    Home,
+  },
+  methods: {
+    ...mapMutations(["setSection"]),
+  },
+  created() {
+    this.setSection("home.section")
+  },
+};
 </script>
