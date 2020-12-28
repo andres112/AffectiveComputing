@@ -4,7 +4,7 @@
       "section": "Home",
       "title": "Welcome",
       "presentation": "Next, a simple interaction with the machine will be presented, in order to evaluate in a very simple way aspects of empathy between human and machine, for which first you will have to answer a small group of questions and then a short interaction with the machine will be performed based on your answers.",
-      "advice": "The answers given here will be treated anonymously, so please try to be as honest as possible.",
+      "advice": "The answers given here will be treated anonymously, so please try to be as honest as possible.<br/> Please do not return after advancing between sections, otherwise the test will be affected.",
       "start-button": "Start"
     },
     "first":{
@@ -16,7 +16,7 @@
       "section": "Inicio",
       "title": "Bienvenid@",
       "presentation": "A continuación, se presentarán una simple interacción con la máquina, con el fin de evaluar de manera muy simple aspectos de empatía entre ser humano y máquina, para lo cual primero deberás responderán a un pequeño grupo de preguntas y luego se realizara una corta interacción con la maquina basada en tus respuestas.",
-      "advice": "Las respuestas dadas aquí, serán tratadas de manera anónima, por lo cual pedimos por favor intenta ser lo más honesto posible al respecto.",
+      "advice": "Las respuestas dadas aquí, serán tratadas de manera anónima, por lo cual pedimos por favor intenta ser lo más honesto posible al respecto. <br/> Por favor después de avanzar entre secciones no regrese, sino el Test se verá afectado.",
       "start-button": "Comenzar"
     },
     "first":{

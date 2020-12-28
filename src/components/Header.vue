@@ -9,15 +9,9 @@
         </v-col>
 
         <v-col cols="4">
-          <v-select
-            v-model="select"
-            :items="languages"
-            item-text="lan"
-            item-value="code"
-            prepend-icon="mdi-translate"
-            return-object
-            single-line
-          ></v-select>
+          <div class="text-right" v-show="test_id">
+            <div class="subtitle-1 font-weight-black">Test id: {{test_id}}</div>
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -34,24 +28,17 @@ export default {
   data: () => ({
     themeStyle: true,
     text: "Home",
-    languages: [
-      { lan: "English", code: "en" },
-      { lan: "Español", code: "es" },
-    ],
-    select: { lan: "English", code: "en" },
   }),
 
   computed: {
-    ...mapState(["section"]),
+    ...mapState(["section", "test_id"]),
   },
 
   watch: {
     themeStyle: function() {
       this.$vuetify.theme.dark = this.themeStyle;
     },
-    select: function() {
-      this.$i18n.locale = this.select.code;
-    },
+
   },
 };
 </script>
