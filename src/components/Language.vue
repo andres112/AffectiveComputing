@@ -1,19 +1,19 @@
 <template>
-    <v-container fluid>
-      <v-row class="d-flex justify-end">
-        <v-col cols="3">
-          <v-select
-            v-model="select"
-            :items="languages"
-            item-text="lan"
-            item-value="code"
-            prepend-icon="mdi-translate"
-            return-object
-            single-line
-          ></v-select>
-        </v-col>
-      </v-row>
-    </v-container>
+  <v-container fluid>
+    <v-row class="d-flex justify-end">
+      <v-col cols="3">
+        <v-select
+          v-model="select"
+          :items="languages"
+          item-text="lan"
+          item-value="code"
+          prepend-icon="mdi-translate"
+          return-object
+          single-line
+        ></v-select>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -28,6 +28,12 @@ export default {
     ],
     select: { lan: "English", code: "en" },
   }),
+
+  created() {
+    if (this.select.code != this.$i18n.locale) {
+      this.select.code = this.$i18n.locale;
+    }
+  },
 
   watch: {
     select: function() {

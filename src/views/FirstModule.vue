@@ -1,17 +1,18 @@
 <template>
   <div>
     <language></language>
-    <h1>First Module</h1>
+    <demographics></demographics>
   </div>
 </template>
 
 <script>
 import Language from "@/components/Language.vue";
+import Demographics from "@/components/Demographics.vue";
 import { mapMutations } from "vuex";
 
 export default {
   name: "First",
-  components: { Language },
+  components: { Language, Demographics },
   data() {
     return {};
   },

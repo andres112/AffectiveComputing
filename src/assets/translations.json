@@ -7,8 +7,10 @@
       "advice": "The answers given here will be treated anonymously, so please try to be as honest as possible.<br/> Please do not return after advancing between sections, otherwise the test will be affected.",
       "start-button": "Start"
     },
-    "first":{
-        "section":"1st Module"
+    "first": {
+      "section": "1st Module",
+      "title": "Who are you?",
+      "gender": "Gender"
     }
   },
   "es": {
@@ -19,8 +21,10 @@
       "advice": "Las respuestas dadas aquí, serán tratadas de manera anónima, por lo cual pedimos por favor intenta ser lo más honesto posible al respecto. <br/> Por favor después de avanzar entre secciones no regrese, sino el Test se verá afectado.",
       "start-button": "Comenzar"
     },
-    "first":{
-        "section":"1er Modulo"
+    "first": {
+      "section": "1er Modulo",
+      "title": "Quien eres?",
+      "gender": "Sexo"
     }
   }
 }
