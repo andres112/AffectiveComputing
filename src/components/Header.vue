@@ -10,7 +10,7 @@
 
         <v-col cols="4">
           <div class="text-right" v-show="test_id">
-            <div class="subtitle-1 font-weight-black">Test id: {{test_id}}</div>
+            <div class="title font-weight-black">Test id: {{test_id}}</div>
           </div>
         </v-col>
       </v-row>

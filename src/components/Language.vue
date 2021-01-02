@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-row class="d-flex justify-end">
-      <v-col cols="3">
+      <v-col cols="2" sm="3" md="2" class="fixed">
         <v-select
           v-model="select"
           :items="languages"
@@ -42,3 +42,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.fixed {
+  position: fixed;
+}
+</style>

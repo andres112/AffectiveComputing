@@ -1,18 +1,16 @@
 <template>
   <div>
     <language></language>
-    <demographics link_name="third"></demographics>
   </div>
 </template>
 
 <script>
 import Language from "@/components/Language.vue";
-import Demographics from "@/components/Demographics.vue";
 import { mapMutations } from "vuex";
 
 export default {
-  name: "First",
-  components: { Language, Demographics },
+  name: "Third",
+  components: { Language },
   data() {
     return {};
   },
@@ -20,7 +18,7 @@ export default {
     ...mapMutations(["setSection"]),
   },
   created() {
-    this.setSection("first.section");
+    this.setSection("third.section");
   },
 };
 </script>

@@ -10,7 +10,17 @@
     "first": {
       "section": "1st Module",
       "title": "Who are you?",
-      "gender": "Gender"
+      "gender": "Gender",
+      "age": "Age",
+      "personality": "What is your personality?",
+      "emotion": "What is your current emotion?",
+      "valence": "How do you consider yourself?",
+      "day": "How is/was your day?",
+      "error_required": "This answer is required!.",
+      "submmit_button": "Next"
+    },
+    "third": {
+      "section": "3rd Module"
     }
   },
   "es": {
@@ -24,7 +34,17 @@
     "first": {
       "section": "1er Modulo",
       "title": "Quien eres?",
-      "gender": "Sexo"
+      "gender": "Sexo",
+      "age": "Edad",
+      "personality": "Cual es tu personalidad?",
+      "emotion": "Cual es tu emocion en este instante?",
+      "valence": "Como te consideras a ti mismo?",
+      "day": "Como va/estuvo tu dia?",
+      "error_required": "Esta respuesta es requerida!.",
+      "submmit_button": "Continuar"
+    },
+    "third": {
+      "section": "3er Modulo"
     }
   }
 }

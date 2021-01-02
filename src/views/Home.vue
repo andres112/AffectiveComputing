@@ -9,7 +9,7 @@
 // @ is an alias to /src
 import Home from "@/components/Home.vue";
 import Language from "@/components/Language.vue";
-import { mapMutations } from "vuex";
+import { mapMutations, mapState } from "vuex";
 
 export default {
   name: "HomeView",
@@ -17,10 +17,16 @@ export default {
     Home,
     Language,
   },
+  computed: {
+    ...mapState(["test_id"]),
+  },
   methods: {
     ...mapMutations(["setSection"]),
   },
   created() {
+    if (this.test_id) {
+      this.$router.push("/first");
+    }
     this.setSection("home.section");
   },
 };
