@@ -12,6 +12,13 @@ export default new Vuex.Store({
     test_id: null,
     empathy: false,
     user: {},
+    dialog: {
+      q1: false,
+      q2: false,
+      q3: false,
+      q4: false,
+      q5: false,
+    },
   },
   mutations: {
     setSection(state, payload) {

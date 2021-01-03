@@ -20,7 +20,16 @@
       "submmit_button": "Next"
     },
     "third": {
-      "section": "3rd Module"
+      "section": "3rd Module",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "dialog": {
+      "q1": "Hello, I am DiDox 🤖, and particularly today I am very happy 😁, there are some important things in life, for example, a beauty sunrise or sunset do you like it as well?",
+      "a1": {
+        "yes": "Great! Then both will enjoy seeing this wonder in a paradise beach or a peaceful location in the middle of the mountains, and why not with your best company 😍",
+        "no": "Well, not everybody thinks similar, but tell me if these spectacular  views are not part of the world wonders… just imagine yourself with your best company in a place like this 😍"
+      }
     }
   },
   "es": {
@@ -44,7 +53,16 @@
       "submmit_button": "Continuar"
     },
     "third": {
-      "section": "3er Modulo"
+      "section": "3er Modulo",
+      "yes": "Sí",
+      "no": "No"
+    },
+    "dialog": {
+      "q1": "Hola, soy DiDox 🤖 y particularmente hoy me encuentro muy feliz 😁, hay algunas cosas importantes en la vida, por ejemplo, un hermoso amanecer o un calido ocaso, a ti te gustan tambien?",
+      "a1": {
+        "yes": "Genial! Entonces somos dos. Te imaginas una maravilla como estas en una playa o en un lugar tranquilo en medio de las montañas, y porque no con una buena compañia 😍",
+        "no": "Bueno, no todos pensamos igual, pero dime si vistas espectaulares como estas no son parte de las maravillas del mundo?… Imaginate tu en compañia de tu ser mas querido en lugar como estos 😍"
+      }
     }
   }
 }

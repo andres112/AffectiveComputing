@@ -1,16 +1,18 @@
 <template>
   <div>
     <language></language>
+    <question></question>
   </div>
 </template>
 
 <script>
 import Language from "@/components/Language.vue";
 import { mapMutations } from "vuex";
+import Question from '../components/Question.vue';
 
 export default {
   name: "Third",
-  components: { Language },
+  components: { Language, Question },
   data() {
     return {};
   },
