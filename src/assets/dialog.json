@@ -1,0 +1,31 @@
+{
+  "q1": {
+    "en": "Hello, I am DiDox 🤖, and particularly today I am very happy 😁, there are important things in life, for example, a beauty sunrise or sunset do you like it as well?",
+    "es": "Hola, soy DiDox 🤖 y particularmente hoy me encuentro muy feliz 😁, hay cosas importantes en la vida, por ejemplo, un hermoso amanecer o un calido ocaso, a ti te gustan tambien?"
+  },
+  "a1": {
+    "yes": {
+      "en": "Great! Then both will enjoy seeing this wonder in a paradise beach or a peaceful location in the middle of the mountains, and why not with your best company 😍",
+      "es": "Genial! Entonces somos dos. Te imaginas una maravilla como estas en una playa o en un lugar tranquilo en medio de las montañas, y porque no con una buena compañia 😍"
+    },
+    "no": {
+      "en": "Well, not everybody thinks similar, but tell me if these spectacular  views are not part of the world wonders… just imagine yourself with your best company in a place like this 😍",
+      "es": "Bueno, no todos pensamos igual, pero dime si paisajes espectaulares como estos no son parte de las maravillas del mundo?… Imaginate tu en compañia de tu ser mas querido en lugar como estos 😍"
+    }
+  },
+
+  "q2": {
+    "en": "And today I received a little and tender puppy 🐶 it is so helpless 🤗, I going to protect him until he gets stronger. Are you animal lover?",
+    "es": ""
+  },
+  "a2": {
+    "yes": {
+      "en": "That’s great, this little friend will touch your heart for sure 💘",
+      "es": ""
+    },
+    "no": {
+      "en": "😂 I am ashamed 😳, I am talking to you about my puppet and you are not an animal lover at all, but tell me if this little friend doesn’t touch your heart 💘",
+      "es": ""
+    }
+  }
+}

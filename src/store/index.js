@@ -19,6 +19,10 @@ export default new Vuex.Store({
       q4: false,
       q5: false,
     },
+    // Dialog Control
+    isAnswer: false,
+    step: 1,
+    answer: "no",
   },
   mutations: {
     setSection(state, payload) {
@@ -32,6 +36,16 @@ export default new Vuex.Store({
     },
     setUser(state, payload) {
       state.user = payload;
+    },
+    // Dialog Control
+    changeDialogState(state, status) {
+      state.isAnswer = status;
+    },
+    nextDialogStep(state) {
+      state.step = state.step > 5 ? 5 : state.step + 1;
+    },
+    setCurrentAnswer(state, res) {
+      state.answer = res;
     },
   },
   actions: {
