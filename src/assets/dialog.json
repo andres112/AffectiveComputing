@@ -51,7 +51,7 @@
     },
     "a4": {
       "yes": {
-        "en": "That’s great, then you are going to enjoy this classic of classical master pieces 🎶",
+        "en": "That’s great, then you are going to enjoy this classical master piece 🎶",
         "es": ""
       },
       "no": {
@@ -78,76 +78,76 @@
 
   "non-empathy": {
     "q1": {
-      "en": "Hello 👋, I am DiDox 🤖, and particularly today I am very happy 😁, there are important things in life, for example, a beauty sunrise or sunset 🌄, do you like it as well?",
-      "es": "Hola 👋, soy DiDox 🤖 y particularmente hoy me encuentro muy feliz 😁, hay cosas importantes en la vida, por ejemplo, un hermoso amanecer o un calido ocaso, a ti te gustan tambien?"
+      "en": "Hello 👋, I am DiDox 🤖, and particularly today is a regular day, some people are happy for insignificant things such as sunrise or sunsets 🙄, it's just the sun in its normal cycle 🥱. Do you like things like those?",
+      "es": "Hola 👋, soy DiDox 🤖 y particularmente hoy es un dia corriente, algunas personas se ponen felices por cosas tan insignificantes, como por ejemplo, un amanecer o un ocaso 🙄, es tan solo el sol en un ciclo normal 🥱. A ti te gustan cosas como esas?"
     },
     "a1": {
       "yes": {
-        "en": "Great! Then both will enjoy seeing this wonder in a paradise beach or a peaceful location in the middle of the mountains, and why not with your best company 😍",
-        "es": "Genial! Entonces somos dos. Te imaginas una maravilla como estas en una playa o en un lugar tranquilo en medio de las montañas, y porque no con una buena compañia 😍"
+        "en": "What a surprise, you're that kind of person 🙄, maybe this sunset for you 🤣. Enjoy it!",
+        "es": ""
       },
       "no": {
-        "en": "Well, not everybody thinks similar, but tell me if these spectacular  views are not part of the world wonders… just imagine yourself with your best company in a place like this 😍",
-        "es": "Bueno, no todos pensamos igual, pero dime si paisajes espectaulares como estos no son parte de las maravillas del mundo?… Imaginate tu en compañia de tu ser mas querido en lugar como estos 😍"
+        "en": "I think you are trying to sympathize with me, but I going to believe you, for me it's the same 🥱. Enjoy this view!",
+        "es": ""
       }
     },
 
     "q2": {
-      "en": "And today I received a little and tender puppy 🐕 it is so helpless 🤗, I going to protect him until he gets stronger. Are you animal lover?",
+      "en": "And today I received a dog 🐕, I don’t know why, if I don’t like animals. Do you like animals?",
       "es": ""
     },
     "a2": {
       "yes": {
-        "en": "That’s great, this little friend will touch your heart for sure 💘",
+        "en": "Really?, what do you think if I do this to my new dog 😂, funny right?",
         "es": ""
       },
       "no": {
-        "en": "😂 I am ashamed 😳, I am talking to you about my puppet and you are not an animal lover at all, but tell me if this little friend doesn’t touch your heart 💘",
+        "en": "You are in my team, although not only I don’t like them, they deserve nothing, after all they are just animals.",
         "es": ""
       }
     },
 
     "q3": {
-      "en": "On the other hand, what do you think about quiet places 🍃, do you like them?",
+      "en": "What do you think about quite places?, do you like them?",
       "es": ""
     },
     "a3": {
       "yes": {
-        "en": "For me too!, I really enjoy places like this, where the sounds 🎶 and aromas 😌 of nature invade the environment 🥰",
+        "en": "Boooring! 🥱. You are a boring person. Quite places are only for plants 🌲 and deceased 💀",
         "es": ""
       },
       "no": {
-        "en": "Well, sometimes the noise 🔊, of the cities for example also has its charming 😋",
+        "en": "The quite places are not for everybody, that is only for people who know to appreciate the good things.",
         "es": ""
       }
     },
 
     "q4": {
-      "en": "You seem to be an interesting person so far, maybe you like classical music 🎻🎼 too, do you?",
+      "en": "You don't seem like an interesting person so far, maybe the music will be something that you appreciate, do you like classical music?",
       "es": ""
     },
     "a4": {
       "yes": {
-        "en": "That’s great, then you are going to enjoy this classic of classical master pieces 🎶",
+        "en": "Really? I bet you don't even know who composed this master piece 🎶",
         "es": ""
       },
       "no": {
-        "en": "Oh, I apologize for assuming that, although I recommend sounds 🎶 like this, to calm you down when you are stressed 😖",
+        "en": "I knew it, such as the previous answers there is no hope on you 😞, here you have a piece of good music. Appreciate it!",
         "es": ""
       }
     },
 
     "q5": {
-      "en": "Is great to talk with you. Finally I would like to know if your day is going well? <br/> I know this question should have been the first 😋",
+      "en": "Finally, to finish soon with this conversation. I would like to know, how is your day going well? ",
       "es": ""
     },
     "a5": {
       "yes": {
-        "en": "The good people deserve good days!",
+        "en": "I don’t know why one day should be good for people like you! 🤦‍♂️",
         "es": ""
       },
       "no": {
-        "en": "Well, not always things turn out the way you want them to, but cheer up! The time doesn’t stop and then it will be a great day for sure! ",
+        "en": "I will just say… maybe you deserve it 👍",
         "es": ""
       }
     }

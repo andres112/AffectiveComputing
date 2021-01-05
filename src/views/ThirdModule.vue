@@ -19,7 +19,7 @@ export default {
   components: { Language, Question, Answer },
   data() {
     return {
-      conversation: this.empathy ? dialog["empathy"] : dialog["non-empathy"], // load only empathic or non-empathic dialog
+      conversation: null, // load only empathic or non-empathic dialog
     };
   },
   computed: {
@@ -36,7 +36,8 @@ export default {
   methods: {
     ...mapMutations(["setSection"]),
   },
-  created() {
+  created() {    
+    this.conversation = this.empathy ? dialog["empathy"] : dialog["non-empathy"];
     this.setSection("third.section");
   },
 };
