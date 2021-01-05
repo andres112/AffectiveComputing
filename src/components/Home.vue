@@ -11,7 +11,12 @@
         <p class="subtitle-1 font-weight-medium" v-html="$t('home.advice')"></p>
       </v-col>
       <v-col cols="12">
-        <v-btn color="red" class="my-2 white--text" x-large @click="start">
+        <v-btn
+          color="red"
+          class="my-2 white--text"
+          x-large
+          @click.prevent="start"
+        >
           {{ $t("home.start-button") }}
           <v-icon dark x-large>
             mdi-play-circle-outline

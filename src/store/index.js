@@ -22,6 +22,7 @@ export default new Vuex.Store({
     // Dialog Control
     isAnswer: false,
     step: 1,
+    sending: false,
   },
   mutations: {
     setSection(state, payload) {
@@ -35,6 +36,9 @@ export default new Vuex.Store({
     },
     setUser(state, payload) {
       state.user = payload;
+    },
+    setSendStatus(state, st) {
+      state.sending = st;
     },
     // Dialog Control
     changeDialogState(state, status) {
@@ -62,47 +66,57 @@ export default new Vuex.Store({
       }
     },
     setTest: async function({ commit, state, dispatch }) {
-      const id = Math.floor(100000 + Math.random() * 900000);
-      commit("setTestId", id);
-
-      const all_tests = await dispatch("getTests");
-      const emp_mode = await !getLastTest(id, all_tests);
-      commit("setTestMode", emp_mode);
-
-      const info = {
-        test_id: id,
-        start_time: Date.now(),
-        empathy_mode: emp_mode, // opossite mode to the previous test in DB
-      };
-      try {
-        // this is better the remote storage is seen as rest service
-        const res = await fetch(
-          `https://empathy-74497-default-rtdb.firebaseio.com/tests/${id}.json`,
-          {
-            method: "PUT",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(info),
-          }
-        );
+      if (!state.sending) {
+        commit("setSendStatus", true);
+        const id = Math.floor(100000 + Math.random() * 900000);
         commit("setTestId", id);
-      } catch (error) {
-        console.log(error);
+
+        const all_tests = await dispatch("getTests");
+        const emp_mode = await !getLastTest(id, all_tests);
+        commit("setTestMode", emp_mode);
+
+        const info = {
+          test_id: id,
+          start_time: Date.now(),
+          empathy_mode: emp_mode, // opossite mode to the previous test in DB
+        };
+        try {
+          // this is better the remote storage is seen as rest service
+          const res = await fetch(
+            `https://empathy-74497-default-rtdb.firebaseio.com/tests/${id}.json`,
+            {
+              method: "PUT",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(info),
+            }
+          );
+          commit("setTestId", id);
+        } catch (error) {
+          console.log(error);
+        } finally {
+          commit("setSendStatus", false);
+        }
       }
     },
 
-    updateTest: async function({}, payload) {
-      try {
-        const res = await fetch(
-          `https://empathy-74497-default-rtdb.firebaseio.com/tests/${payload.id}.json`,
-          {
-            method: "PATCH",
-            body: JSON.stringify(payload.content),
-          }
-        );
-      } catch (error) {
-        console.error(error);
+    updateTest: async function({ commit, state }, payload) {
+      if (!state.sending) {
+        commit("setSendStatus", true);
+        try {
+          const res = await fetch(
+            `https://empathy-74497-default-rtdb.firebaseio.com/tests/${payload.id}.json`,
+            {
+              method: "PATCH",
+              body: JSON.stringify(payload.content),
+            }
+          );
+        } catch (error) {
+          console.error(error);
+        } finally {
+          commit("setSendStatus", false);
+        }
       }
     },
   },

@@ -19,7 +19,7 @@
           class="my-2 white--text"
           large
           type="submit"
-          @click="next"
+          @click.prevent="next"
         >
           {{ $t("third.next_button") }}
         </v-btn>
