@@ -23,6 +23,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "third" */ "../views/ThirdModule.vue"),
   },
+  {
+    path: "/final",
+    name: "Final",
+    component: () =>
+      import(/* webpackChunkName: "final" */ "../views/Final.vue"),
+  },
 ];
 
 const router = new VueRouter({

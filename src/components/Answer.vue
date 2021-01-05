@@ -28,7 +28,7 @@
   </v-container>
 </template>
 <script>
-import {mapMutations} from 'vuex'
+import { mapActions, mapMutations, mapState } from "vuex";
 
 export default {
   name: "Answer",
@@ -36,11 +36,29 @@ export default {
   props: {
     current_answer: String,
   },
+  computed: { ...mapState(["step", "dialog", "test_id"]) },
   methods: {
     ...mapMutations(["changeDialogState", "nextDialogStep"]),
-    next() {
-      this.changeDialogState(false);
-      this.nextDialogStep()
+    ...mapActions(["updateTest"]),
+    async next() {
+      if (this.step < 5) {
+        this.changeDialogState(false);
+        this.nextDialogStep();
+      }
+      else{
+        const payload = {
+          id: this.test_id,
+          content: {
+            dialog: this.dialog,
+          },
+        };
+        try {
+          await this.updateTest(payload);
+          this.$router.push("/final");
+        } catch (error) {
+          console.log(error);
+        }
+      }
     },
   },
 };

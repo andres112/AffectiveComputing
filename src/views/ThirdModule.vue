@@ -19,16 +19,18 @@ export default {
   components: { Language, Question, Answer },
   data() {
     return {
-      conversation: dialog, // load only empathic or non-empathic dialog
+      conversation: this.empathy ? dialog["empathy"] : dialog["non-empathy"], // load only empathic or non-empathic dialog
     };
   },
   computed: {
-    ...mapState(["isAnswer", "step", "answer"]),
+    ...mapState(["empathy", "isAnswer", "step", "dialog"]),
     getQuestion() {
       return this.conversation[`q${this.step}`][this.$i18n.locale];
     },
     getAnswer() {
-      return this.conversation[`a${this.step}`][this.answer][this.$i18n.locale];
+      return this.conversation[`a${this.step}`][this.dialog[`q${this.step}`]][
+        this.$i18n.locale
+      ];
     },
   },
   methods: {
