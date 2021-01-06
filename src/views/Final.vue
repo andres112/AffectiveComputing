@@ -11,7 +11,7 @@ import { mapMutations } from "vuex";
 
 export default {
   name: "Survey",
-  components: { Language},
+  components: { Language },
   data() {
     return {};
   },

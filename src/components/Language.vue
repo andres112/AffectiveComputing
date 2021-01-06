@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
-    <v-row class="d-flex justify-end">
-      <v-col cols="2" sm="3" md="2" class="fixed">
+    <v-row class="d-flex justify-end mb-7">
+      <v-col cols="5" sm="3" md="2" :class="$vuetify.breakpoint.xs ? 'top':'fixed'">
         <v-select
           v-model="select"
           :items="languages"
@@ -46,5 +46,8 @@ export default {
 <style lang="scss" scoped>
 .fixed {
   position: fixed;
+}
+.top {
+  position: absolute;
 }
 </style>

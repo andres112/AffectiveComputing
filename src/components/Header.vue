@@ -10,7 +10,7 @@
 
         <v-col cols="4">
           <div class="text-right" v-show="test_id">
-            <div class="title font-weight-black">Test id: {{test_id}}</div>
+            <div class="font-weight-black" :class="$vuetify.breakpoint.xs ? 'subtitle-1':'title'">Test id: {{test_id}}</div>
           </div>
         </v-col>
       </v-row>

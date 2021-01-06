@@ -2,7 +2,12 @@
   <v-container>
     <v-row class="text-center" justify="center">
       <v-col class="my-1" cols="6">
-        <h1 class="mb-6">{{ $t("first.title") }}</h1>
+        <h1
+          class="mb-6"
+          :class="[$vuetify.breakpoint.sm ? 'text-h3' : 'text-h5']"
+        >
+          {{ $t("first.title") }}
+        </h1>
         <v-form
           ref="form"
           v-model="valid"
@@ -25,8 +30,8 @@
             :label="$t('first.age')"
             thumb-color="primary"
             thumb-label="always"
-            max="110"
-            min="5"
+            max="100"
+            min="10"
           ></v-slider>
           <v-row class="d-flex justify-space-between align-center">
             <v-col cols="6" class="text-left">

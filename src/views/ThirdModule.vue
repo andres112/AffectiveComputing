@@ -28,16 +28,16 @@ export default {
       return this.conversation[`q${this.step}`][this.$i18n.locale];
     },
     getAnswer() {
-      return this.conversation[`a${this.step}`][this.dialog[`q${this.step}`]][
-        this.$i18n.locale
-      ];
+      return this.conversation[`a${this.step}`][this.dialog[`q${this.step}`]];
     },
   },
   methods: {
     ...mapMutations(["setSection"]),
   },
-  created() {    
-    this.conversation = this.empathy ? dialog["empathy"] : dialog["non-empathy"];
+  created() {
+    this.conversation = this.empathy
+      ? dialog["empathy"]
+      : dialog["non-empathy"];
     this.setSection("third.section");
   },
 };
