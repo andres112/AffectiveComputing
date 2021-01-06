@@ -23,6 +23,3 @@ pnpm-debug.log*
 *.sw?
 
 *.cache
-.github
-.firebase
-firebase-debug.log
