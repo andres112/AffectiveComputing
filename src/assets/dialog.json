@@ -12,24 +12,24 @@
       },
       "no": {
         "en": "Well, not everybody thinks similar, but tell me if these spectacular  views are not part of the world wonders… just imagine yourself with your best company in a place like this 😍",
-        "es": "Bueno, no todos pensamos igual, pero dime si paisajes espectaulares como estos no son parte de las maravillas del mundo?… Imaginate tu en compañia de tu ser mas querido en lugar como estos 😍",
+        "es": "Bueno, no todos pensamos igual, pero dime si paisajes espectaculares como este no son parte de las maravillas del mundo?… Imaginate en compañia de tu ser mas querido en lugar asi 😍",
         "img": "/img/sunrise.jpg"
       }
     },
 
     "q2": {
-      "en": "And today I received a little and tender puppy 🐕 it is so helpless 🤗, I going to protect him until he gets stronger. Are you animal lover?",
-      "es": "Hoy recibí un pequeño y tierno cachorro 🐕, es tan indefenso 🤗, voy a protegerlo hasta que sea mas fuerte. Tu amas a los animales?"
+      "en": "By the way today I received a little and tender puppy 🐕 it is so helpless 🤗, I going to protect him until he gets stronger. Are you animal lover?",
+      "es": "Te cuento que hoy recibí un pequeño y tierno cachorro 🐕, es tan indefenso 🤗, voy a protegerlo hasta que sea mas fuerte. Tú amas a los animales?"
     },
     "a2": {
       "yes": {
-        "en": "That’s great, this little friend will touch your heart for sure 💘",
-        "es": "Eso es grandioso, este pequeño amiguito tocará tu corazón, te lo aseguro 💘",
+        "en": "That’s great! Then this little friend will touch your heart for sure 💘",
+        "es": "Eso es grandioso! Entonces este pequeño amiguito tocará tu corazón, te lo aseguro 💘",
         "img": "/img/dog.jpg"
       },
       "no": {
         "en": "😂 I am ashamed 😳, I am talking to you about my little dog and you are not an animal lover at all, but tell me if this little friend doesn’t touch your heart 💘",
-        "es": "😂 Estoy avergonzado 😳, Yo hablándote acerca de mi cachorrito y tú no eres un amante a los animales en absoluto, pero dime si este pequeño amiguito no toca tu corazón 💘",
+        "es": "😂 Estoy avergonzado 😳, Yo hablándote acerca de mi cachorrito y no sabia que no eres un amante a los animales. Pero dime si este pequeño amiguito no toca tu corazón 💘",
         "img": "/img/sleepy_dog.jpg"
       }
     },
@@ -41,8 +41,8 @@
     "a3": {
       "yes": {
         "en": "For me too!, I really enjoy places like this, where the sounds 🎶 and aromas 😌 of nature invade the environment 🥰",
-        "es": "Para mi tambien!, Realmente disfruto de lugares como este, donde los sonidos 🎶 y aromas 😌 de la naturaleza invaden el entorno 🥰",
-        "img": "/img/nature"
+        "es": "A mi tambien!, Realmente disfruto de lugares como éste, donde los sonidos 🎶 y aromas 😌 de la naturaleza invaden el entorno 🥰",
+        "img": "/img/nature.jpg"
       },
       "no": {
         "en": "Well, sometimes the noise of the cities 🔊, for example also has its charming 😋",
@@ -52,18 +52,18 @@
     },
 
     "q4": {
-      "en": "You seem to be an interesting person so far, maybe you like classical music too 🎻🎼, do you?",
-      "es": "Tu pareces ser una persona interesante hasta ahora, tal vez te guste la música clásica también 🎻🎼, te gusta?"
+      "en": "You seem to be an interesting person so far. Maybe you like classical music too 🎻🎼, do you?",
+      "es": "Pareces ser una persona interesante hasta el momento. Tal vez te guste la música clásica también 🎻🎼, te gusta?"
     },
     "a4": {
       "yes": {
-        "en": "That’s great, then you are going to enjoy this piece of classic music masterpiece of all times 🎶",
-        "es": "Eso es genial, entonces tu vas a disfrutar esta pieza de obra maestra de musica clasica de todos los tiempos 🎶",
+        "en": "That’s great, then maybe you are going to enjoy this piece of classical music masterpiece compused by Frédéric Chopin  🎶",
+        "es": "Eso es genial, entonces quiza disfrutes de esta pieza de obra maestra de música clásica compuesta por Frédéric Chopin 🎶",
         "audio":"/audio/classic_music.mp3"
       },
       "no": {
         "en": "Oh, I apologize for assuming that, although I recommend sounds 🎶 like this, to calm you down when you are stressed 😖",
-        "es": "¡Oh!, me disculpo por asumirlo, aunque te recomiendo sonidos 🎶 como este, para calmarte cuando estés estresado 😖",
+        "es": "¡Oh!, me disculpo por asumirlo, aunque te recomiendo sonidos 🎶 como éste, para calmarte cuando estés estresado 😖",
         "audio":"/audio/classic_music.mp3"
       }
     },
@@ -75,7 +75,7 @@
     "a5": {
       "yes": {
         "en": "The good people deserve good days!",
-        "es": "La gente buena merece siempre buenos dias!",
+        "es": "La gente como tú merece siempre dias geniales!",
         "img": "/img/good_day.jpg"
       },
       "no": {
@@ -94,19 +94,19 @@
     "a1": {
       "yes": {
         "en": "What a surprise, you're that kind of person 🙄, maybe this sunset for you 🤣. Enjoy it!",
-        "es": "Que sorpresa, eres de esa clase de personas 🙄, talvez este ocaso sea para ti 🤣. Disfrutalo!",
+        "es": "Que sorpresa, eres de esa clase de personas 🙄, tal vez este ocaso sea para ti 🤣. Disfrutalo!",
         "img": "/img/contaminated_beach.jpg"
       },
       "no": {
-        "en": "I think you are trying to sympathize with me, but I going to believe you, for me it's the same 🥱. Enjoy this view!",
-        "es": "Yo pienso que tu estas tratando se ser simpático conmigo, pero te voy a creer, a mi realmente me da lo mismo 🥱. Disfruta de esta vista!",
+        "en": "I think you are trying to sympathize with me, but I going to believe you, for me it's the same 🙄. Enjoy this view!",
+        "es": "Yo pienso que tu estas tratando se ser simpático conmigo, pero te voy a creer, a mi realmente me da lo mismo 🙄. Disfruta de esta vista!",
         "img": "/img/contaminated_place.jpg"
       }
     },
 
     "q2": {
       "en": "And today I received a dog 🐕, I don’t know why, if I don’t like animals. Do you like animals?",
-      "es": "Y hoy recibí un perro 🐕, no se realmente porque si no me gustan los animales. ¿A ti te gustan?"
+      "es": "Y hoy recibí un perro 🐕, no se realmente porqué, si los animales no me gustan. ¿A ti te gustan?"
     },
     "a2": {
       "yes": {
@@ -116,7 +116,7 @@
       },
       "no": {
         "en": "You are in my team!, although not only I don’t like them, they deserve nothing, after all they are just animals.",
-        "es": "Eres de los míos!, aunque no solamente no me gusta, pienso que ellos realmente no merecen nada, después de todo son animales.",
+        "es": "Eres de los míos!, aunque, no solamente no me gusta, pienso que realmente no merecen nada, después de todo, son solo animales.",
         "img": "/img/dog_abused.jpg"
       }
     },
@@ -127,8 +127,8 @@
     },
     "a3": {
       "yes": {
-        "en": "Boooring! 🥱. You are a boring person. Quiet places are only for plants 🌲 and deceased 💀",
-        "es": "Aburridoooo! 🥱. Tu eres una persona aburrida. Los lugares tranquilos son únicamente para las plantas 🌲 y los muertos 💀",
+        "en": "Boooring!. You are a boring person. Quiet places are only for plants 🌲 and deceased 💀",
+        "es": "Aburridoooo!. Tu eres una persona aburrida. Los lugares tranquilos son únicamente para las plantas 🌲 y los muertos 💀",
         "img": "/img/cemetery.jpg"
       },
       "no": {
@@ -140,7 +140,7 @@
 
     "q4": {
       "en": "You don't seem like an interesting person so far, maybe the music will be something that you appreciate, do you like classical music? 🎻🎼",
-      "es": "No pareces ser una persona interesante hasta ahora, quizá la música clásica sea algo que aprecies. ¿Te gusta la música clásica?  🎻🎼"
+      "es": "No pareces ser una persona interesante hasta el momento, quizá la música clásica sea algo que aprecies. ¿Te gusta la música clásica?  🎻🎼"
     },
     "a4": {
       "yes": {
@@ -162,12 +162,12 @@
     "a5": {
       "yes": {
         "en": "I don’t know why one day should be good for people like you! 🤦‍♂️",
-        "es": "No sé por que una persona como tu debe tener un buen dia! 🤦‍♂️",
+        "es": "No sé porqué una persona como tu debe tener un buen dia! 🤦‍♂️",
         "img": "/img/bad_day.jpg"
       },
       "no": {
         "en": "I will just say... maybe you deserve it 👎",
-        "es": "Tan solo diré... tal ves tu lo mereces 👎",
+        "es": "Tan solo diré... Quizá lo mereces 👎",
         "img": "/img/bad_day.jpg"
       }
     }
