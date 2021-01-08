@@ -2,23 +2,49 @@
   <v-container>
     <v-row class="mt-10 text-center" justify="center">
       <v-col class="my-2" cols="6">
-        <p class="title font-weight-medium" v-html="current_answer[$i18n.locale]"></p>
+        <p
+          class="font-weight-medium"
+          :class="[$vuetify.breakpoint.xs ? 'subtitle-1' : 'title']"
+          v-html="current_answer[$i18n.locale]"
+        ></p>
       </v-col>
-      <v-col class="my-1 d-flex justify-center" cols="10" v-if="current_answer.img">
+      <v-col
+        class="my-1 d-flex justify-center"
+        cols="11"
+        v-if="current_answer.img"
+      >
         <v-img
           contain
           lazy-src="https://picsum.photos/id/11/10/6"
           max-height="800"
-          max-width="1000"
+          max-width="100%"
           :src="current_answer.img"
-        ></v-img>
+          transition="fade-transition"
+          aspect-ratio="1.2"
+        >
+          <template v-slot:placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              ></v-progress-circular>
+            </v-row>
+          </template>
+        </v-img>
       </v-col>
-      <v-col class="my-1 d-flex justify-center" cols="10" v-if="current_answer.audio">
-        <vuetify-audio
-          :file="current_answer.audio"
-          color="primary"
-          flat
-        ></vuetify-audio>
+      <v-col
+        class="my-1 d-flex justify-center"
+        cols="10"
+        v-if="current_answer.audio"
+      >
+        <audio
+          controls
+          :src="current_answer.audio"
+          preload="auto"
+          autoplay
+        >
+          Your browser does not support the audio tag.
+        </audio>
       </v-col>
       <v-col cols="12">
         <v-btn
@@ -35,13 +61,10 @@
   </v-container>
 </template>
 <script>
-import VuetifyAudio from "vuetify-audio";
 import { mapActions, mapMutations, mapState } from "vuex";
 
 export default {
   name: "Answer",
-  data: () => ({}),
-  components: { VuetifyAudio },
   props: {
     current_answer: Object,
   },

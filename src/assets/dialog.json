@@ -8,12 +8,12 @@
       "yes": {
         "en": "Great! Then both will enjoy seeing this wonder in a paradise beach or a peaceful location in the middle of the mountains, and why not with your best company 😍",
         "es": "Genial! Entonces somos dos. Te imaginas una maravilla como estas en una playa o en un lugar tranquilo en medio de las montañas, y porque no con una buena compañia 😍",
-        "img": "https://cf.bstatic.com/data/xphoto/1182x591/568/56833453.jpg?size=S"
+        "img": "/img/sunset.jpg"
       },
       "no": {
         "en": "Well, not everybody thinks similar, but tell me if these spectacular  views are not part of the world wonders… just imagine yourself with your best company in a place like this 😍",
         "es": "Bueno, no todos pensamos igual, pero dime si paisajes espectaulares como estos no son parte de las maravillas del mundo?… Imaginate tu en compañia de tu ser mas querido en lugar como estos 😍",
-        "img": "https://wallpaperaccess.com/full/1319765.jpg"
+        "img": "/img/sunrise.jpg"
       }
     },
 
@@ -25,12 +25,12 @@
       "yes": {
         "en": "That’s great, this little friend will touch your heart for sure 💘",
         "es": "Eso es grandioso, este pequeño amiguito tocará tu corazón, te lo aseguro 💘",
-        "img": "https://images.wagwalkingweb.com/media/daily_wag/name_guides/%7Bslug%7D/hero/1536432012.18/dog-names-meaning-beauty.jpg"
+        "img": "/img/dog.jpg"
       },
       "no": {
         "en": "😂 I am ashamed 😳, I am talking to you about my little dog and you are not an animal lover at all, but tell me if this little friend doesn’t touch your heart 💘",
         "es": "😂 Estoy avergonzado 😳, Yo hablándote acerca de mi cachorrito y tú no eres un amante a los animales en absoluto, pero dime si este pequeño amiguito no toca tu corazón 💘",
-        "img": "https://img2.goodfon.com/original/1920x1080/9/87/sobaka-schenok-krasota.jpg"
+        "img": "/img/sleepy_dog.jpg"
       }
     },
 
@@ -42,12 +42,12 @@
       "yes": {
         "en": "For me too!, I really enjoy places like this, where the sounds 🎶 and aromas 😌 of nature invade the environment 🥰",
         "es": "Para mi tambien!, Realmente disfruto de lugares como este, donde los sonidos 🎶 y aromas 😌 de la naturaleza invaden el entorno 🥰",
-        "img": "https://i.pinimg.com/originals/42/25/7e/42257ecead7aef03b692be9d927f19c1.jpg"
+        "img": "/img/nature"
       },
       "no": {
         "en": "Well, sometimes the noise of the cities 🔊, for example also has its charming 😋",
         "es": "Bueno, algunas veces el ruido de las ciudades 🔊, por ejemplo tambien es encantador 😋",
-        "img": "https://bangonpictures.com/wp-content/uploads/2020/03/Beautiful-Chicago-City-at-Night-02.jpg"
+        "img": "/img/city.jpg"
       }
     },
 
@@ -76,12 +76,12 @@
       "yes": {
         "en": "The good people deserve good days!",
         "es": "La gente buena merece siempre buenos dias!",
-        "img": "https://riselikeair.files.wordpress.com/2017/11/244036-today-is-a-good-day-to-have-a-great-day-cute-quote.jpg"
+        "img": "/img/good_day.jpg"
       },
       "no": {
-        "en": "Well, not always things turn out the way you want them to, but cheer up! The time doesn’t stop and then it will be a great day for sure! ",
-        "es": "Bueno, no siempre las cosas suceden como se quiere, ¡pero animo! El tiempo no se detiene y luego será un gran día. ¡Estoy seguro!",
-        "img": "https://riselikeair.files.wordpress.com/2017/11/244036-today-is-a-good-day-to-have-a-great-day-cute-quote.jpg"
+        "en": "Well, not always things turn out the way you want them to, but cheer up! The time doesn’t stop and then it will be a great day for sure! 👍",
+        "es": "Bueno, no siempre las cosas suceden como se quiere, ¡pero animo! El tiempo no se detiene y luego será un gran día. ¡Estoy seguro! 👍",
+        "img": "/img/good_day.jpg"
       }
     }
   },
@@ -94,11 +94,13 @@
     "a1": {
       "yes": {
         "en": "What a surprise, you're that kind of person 🙄, maybe this sunset for you 🤣. Enjoy it!",
-        "es": "Que sorpresa, eres de esa clase de personas 🙄, talvez este ocaso sea para ti 🤣. Disfrutalo!"
+        "es": "Que sorpresa, eres de esa clase de personas 🙄, talvez este ocaso sea para ti 🤣. Disfrutalo!",
+        "img": "/img/contaminated_beach.jpg"
       },
       "no": {
         "en": "I think you are trying to sympathize with me, but I going to believe you, for me it's the same 🥱. Enjoy this view!",
-        "es": "Yo pienso que tu estas tratando se ser simpático conmigo, pero te voy a creer, a mi realmente me da lo mismo 🥱. Disfruta de esta vista!"
+        "es": "Yo pienso que tu estas tratando se ser simpático conmigo, pero te voy a creer, a mi realmente me da lo mismo 🥱. Disfruta de esta vista!",
+        "img": "/img/contaminated_place.jpg"
       }
     },
 
@@ -109,26 +111,30 @@
     "a2": {
       "yes": {
         "en": "Really?, what do you think if I do this to my new dog 😂, funny right?",
-        "es": "¿En serio?, bueno, que piensas si le hago esto a mi nuevo perro 😂, ¿divertido cierto?"
+        "es": "¿En serio?, bueno, que piensas si le hago esto a mi nuevo perro 😂, ¿divertido cierto?",
+        "img": "/img/animal_abuse.jpg"
       },
       "no": {
         "en": "You are in my team!, although not only I don’t like them, they deserve nothing, after all they are just animals.",
-        "es": "Eres de los míos!, aunque no solamente no me gusta, pienso que ellos realmente no merecen nada, después de todo son animales."
+        "es": "Eres de los míos!, aunque no solamente no me gusta, pienso que ellos realmente no merecen nada, después de todo son animales.",
+        "img": "/img/dog_abused.jpg"
       }
     },
 
     "q3": {
-      "en": "What do you think about quite places?, do you like them?",
+      "en": "What do you think about quiet places?, do you like them?",
       "es": "Que piensas de los lugares tranquilos?, te gustan?"
     },
     "a3": {
       "yes": {
-        "en": "Boooring! 🥱. You are a boring person. Quite places are only for plants 🌲 and deceased 💀",
-        "es": "Aburridoooo! 🥱. Tu eres una persona aburrida. Los lugares tranquilos son únicamente para las plantas 🌲 y los muertos 💀"
+        "en": "Boooring! 🥱. You are a boring person. Quiet places are only for plants 🌲 and deceased 💀",
+        "es": "Aburridoooo! 🥱. Tu eres una persona aburrida. Los lugares tranquilos son únicamente para las plantas 🌲 y los muertos 💀",
+        "img": "/img/cemetery.jpg"
       },
       "no": {
-        "en": "The quite places are not for everybody, that is only for people who know to appreciate the good things.",
-        "es": "Los lugares tranquilos no son para todos, eso es únicamente para personas que saben apreciar las buenas cosas."
+        "en": "The quiet places are not for everybody, that is only for people who know to appreciate the good things.",
+        "es": "Los lugares tranquilos no son para todos, eso es únicamente para personas que saben apreciar las buenas cosas.",
+        "img": "/img/dissapointed.jpeg"
       }
     },
 
@@ -139,11 +145,13 @@
     "a4": {
       "yes": {
         "en": "Really? I bet you don't even know who composed this master piece 🎶",
-        "es": "¿Enserio? apuesto a que ni siquiera sabes quién compuso esta obra maestra 🎶"
+        "es": "¿Enserio? apuesto a que ni siquiera sabes quién compuso esta obra maestra 🎶",
+        "audio":"/audio/sad_music.mp3"
       },
       "no": {
         "en": "I knew it, such as the previous answers there is no hope on you 😞, here you have a piece of good music. Appreciate it!",
-        "es": "Lo sabía, tal como las respuestas anteriores, no hay nada interesante en ti 😞, igual aquí tienes una muestra de buena música. Apréciala!"
+        "es": "Lo sabía, tal como las respuestas anteriores, no hay nada interesante en ti 😞, igual aquí tienes una muestra de buena música. Apréciala!",
+        "audio":"/audio/sad_music.mp3"
       }
     },
 
@@ -154,11 +162,13 @@
     "a5": {
       "yes": {
         "en": "I don’t know why one day should be good for people like you! 🤦‍♂️",
-        "es": "No sé por que una persona como tu debe tener un buen dia! 🤦‍♂️"
+        "es": "No sé por que una persona como tu debe tener un buen dia! 🤦‍♂️",
+        "img": "/img/bad_day.jpg"
       },
       "no": {
-        "en": "I will just say... maybe you deserve it 👍",
-        "es": "Tan solo diré... tal ves tu lo mereces 👍"
+        "en": "I will just say... maybe you deserve it 👎",
+        "es": "Tan solo diré... tal ves tu lo mereces 👎",
+        "img": "/img/bad_day.jpg"
       }
     }
   }

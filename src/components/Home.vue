@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-center" justify="center">
-      <v-col class="my-1" cols="6" align-self="center">
+      <v-col class="my-1" cols="10" sm="6" align-self="center">
         <h1
           class="font-weight-bold mb-3 "
           :class="[$vuetify.breakpoint.sm ? 'display-3' : 'display-6']"
