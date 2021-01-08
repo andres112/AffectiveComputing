@@ -9,8 +9,13 @@
         </v-col>
 
         <v-col cols="4">
-          <div class="text-right" v-show="test_id">
-            <div class="font-weight-black" :class="$vuetify.breakpoint.xs ? 'subtitle-1':'title'">Test id: {{test_id}}</div>
+          <div class="text-right" v-show="test_id" @click="copy" style="cursor: pointer">
+            <div
+              class="font-weight-black"
+              :class="$vuetify.breakpoint.xs ? 'subtitle-1' : 'title'"
+            >
+              Test id: <span v-text="test_id"></span>
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -33,12 +38,17 @@ export default {
   computed: {
     ...mapState(["section", "test_id"]),
   },
+  methods: {
+    async copy() {
+      await navigator.clipboard.writeText(this.test_id);
+      alert(this.$t('home.testID_alert'));
+    },
+  },
 
   watch: {
     themeStyle: function() {
       this.$vuetify.theme.dark = this.themeStyle;
     },
-
   },
 };
 </script>

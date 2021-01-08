@@ -165,17 +165,17 @@ export default {
       ],
 
       valences: [
-        { en: "Positive", es: "Positivo", code: "p" },
-        { en: "Negative", es: "Negativo", code: "n" },
-        { en: "Neutrum", es: "Neutro", code: "a" },
+        { en: "Positive", es: "Positivo", code: "pos" },
+        { en: "Negative", es: "Negativo", code: "neg" },
+        { en: "Neutral", es: "Neutro", code: "none" },
       ],
 
       day_moods: [
-        { en: "Excellent", es: "Excelente", code: "ex" },
-        { en: "Good", es: "Bien", code: "go" },
-        { en: "Normal", es: "Normal", code: "no" },
-        { en: "Bad", es: "Mal", code: "ba" },
-        { en: "Very Bad", es: "Muy mal", code: "vb" },
+        { en: "Excellent", es: "Excelente", code: "exc" },
+        { en: "Good", es: "Bien", code: "goo" },
+        { en: "Normal", es: "Normal", code: "nor" },
+        { en: "Bad", es: "Mal", code: "bad" },
+        { en: "Very Bad", es: "Muy mal", code: "vbad" },
       ],
     };
   },

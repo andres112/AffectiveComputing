@@ -1,7 +1,13 @@
 <template>
   <div>
     <language></language>
-    <h1>Survey Link</h1>
+    <h1>
+      Survey Link
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSetwVGB0qRnDETEqgu1NP-_3BkLsSZLPfq2P7hl3ZFKV0G1xA/viewform"
+        target="_blank"
+      > link</a>
+    </h1>
   </div>
 </template>
 
