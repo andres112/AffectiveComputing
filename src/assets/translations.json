@@ -9,7 +9,7 @@
       "testID_alert": "Test ID copied!"
     },
     "first": {
-      "section": "1st Module",
+      "section": "Who are you?",
       "title": "Who are you?",
       "gender": "Gender",
       "age": "Age",
@@ -21,12 +21,13 @@
       "submmit_button": "Next"
     },
     "third": {
-      "section": "3rd Module",
+      "section": "Dialog",
       "yes": "Yes",
       "no": "No",
       "next_button": "Next"
     },
     "final":{
+      "section": "Questionnaire"
     }
   },
   "es": {
@@ -39,7 +40,7 @@
       "testID_alert": "Test ID copiado!"
     },
     "first": {
-      "section": "1er Modulo",
+      "section": "Quien eres?",
       "title": "Quien eres?",
       "gender": "Sexo",
       "age": "Edad",
@@ -51,12 +52,13 @@
       "submmit_button": "Continuar"
     },
     "third": {
-      "section": "3er Modulo",
+      "section": "Dialogo",
       "yes": "Sí",
       "no": "No",
       "next_button": "Continuar"
     },
     "final":{
+      "section": "Cuestionario"
     }
   }
 }

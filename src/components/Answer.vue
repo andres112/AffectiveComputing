@@ -61,6 +61,7 @@
   </v-container>
 </template>
 <script>
+import { copyText } from "@/assets/helpers.js";
 import { mapActions, mapMutations, mapState } from "vuex";
 
 export default {
@@ -85,6 +86,7 @@ export default {
         };
         try {
           await this.updateTest(payload);
+          await copyText(this.test_id);
           this.$router.push("/final");
         } catch (error) {
           console.log(error);

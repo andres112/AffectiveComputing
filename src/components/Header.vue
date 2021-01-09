@@ -9,7 +9,12 @@
         </v-col>
 
         <v-col cols="4">
-          <div class="text-right" v-show="test_id" @click="copy" style="cursor: pointer">
+          <div
+            class="text-right"
+            v-show="test_id"
+            @click="copyID"
+            style="cursor: pointer"
+          >
             <div
               class="font-weight-black"
               :class="$vuetify.breakpoint.xs ? 'subtitle-1' : 'title'"
@@ -26,6 +31,7 @@
 </template>
 
 <script>
+import { copyText } from "@/assets/helpers.js";
 import { mapState } from "vuex";
 
 export default {
@@ -39,9 +45,8 @@ export default {
     ...mapState(["section", "test_id"]),
   },
   methods: {
-    async copy() {
-      await navigator.clipboard.writeText(this.test_id);
-      alert(this.$t('home.testID_alert'));
+    async copyID() {
+      await copyText(this.test_id);
     },
   },
 

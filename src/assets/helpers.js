@@ -8,3 +8,11 @@ export const getLastTest = function(omitedId, testList) {
   }
   return false;
 };
+
+export const copyText = async function(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch (error) {
+    console.log(error);
+  }
+};
