@@ -1,13 +1,18 @@
 <template>
   <div>
     <language></language>
-    <h1>
-      Survey Link
+    <v-row class="text-center" justify="center">
+      <h1>
+        Survey Link
+      </h1>
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSetwVGB0qRnDETEqgu1NP-_3BkLsSZLPfq2P7hl3ZFKV0G1xA/viewform"
         target="_blank"
-      > link</a>
-    </h1>
+      >
+        link
+      </a>
+      <v-col class="my-1" cols="6"> </v-col
+    ></v-row>
   </div>
 </template>
 

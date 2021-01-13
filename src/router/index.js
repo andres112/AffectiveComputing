@@ -18,6 +18,12 @@ const routes = [
       import(/* webpackChunkName: "first" */ "../views/FirstModule.vue"),
   },
   {
+    path: "/second",
+    name: "Second",
+    component: () =>
+      import(/* webpackChunkName: "second" */ "../views/SecondModule.vue"),
+  },
+  {
     path: "/third",
     name: "Third",
     component: () =>

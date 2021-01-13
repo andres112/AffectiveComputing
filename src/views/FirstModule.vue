@@ -1,7 +1,7 @@
 <template>
   <div>
     <language></language>
-    <demographics link_name="third"></demographics>
+    <demographics link_name="second"></demographics>
   </div>
 </template>
 

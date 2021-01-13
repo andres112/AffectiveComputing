@@ -20,6 +20,10 @@
       "error_required": "This answer is required!.",
       "submmit_button": "Next"
     },
+    "second":{
+      "section": "Crisis Situation",
+      "next_button": "Next"
+    },
     "third": {
       "section": "Dialog",
       "yes": "Yes",
@@ -50,6 +54,10 @@
       "day": "Como va/estuvo tu dia?",
       "error_required": "Esta respuesta es requerida!.",
       "submmit_button": "Continuar"
+    },
+    "second":{
+      "section": "Situación de Crisis",
+      "next_button": "Continuar"
     },
     "third": {
       "section": "Dialogo",
