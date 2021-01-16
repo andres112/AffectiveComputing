@@ -22,7 +22,8 @@
     },
     "second": {
       "section": "Crisis Situation",
-      "next_button": "Next"
+      "next_button": "Next",
+      "description": "After this unwanted event, you will be attended by our artificial agent, who will engage in a simple conversation with you. <br/> Please press next."
     },
     "third": {
       "section": "Dialog",
@@ -60,7 +61,8 @@
     },
     "second": {
       "section": "Situación de Crisis",
-      "next_button": "Continuar"
+      "next_button": "Continuar",
+      "description": "Luego de este suceso indeseado, serás atendid@ por nuestro agente artificial, el cual entablará una sencilla conversación contigo. <br/> Por favor presiona continuar."
     },
     "third": {
       "section": "Dialogo",

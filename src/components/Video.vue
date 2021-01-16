@@ -21,8 +21,8 @@
           <p
             class=" font-weight-medium"
             :class="[$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1']"
+            v-html="$t('second.description')"
           >
-            {{ $t("home.presentation") }}
           </p>
           <v-btn
             color="red"
