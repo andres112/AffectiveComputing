@@ -16,7 +16,7 @@
           v-html="$t('final.description')"
         ></p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSetwVGB0qRnDETEqgu1NP-_3BkLsSZLPfq2P7hl3ZFKV0G1xA/viewform"
+          href="https://ee.kobotoolbox.org/x/Hb5Ct6fZ"
           target="_blank"
         >
           <h1>{{$t("final.link")}}</h1>
