@@ -4,7 +4,7 @@
       <v-col class="my-2" cols="6">
         <p
           class="font-weight-medium"
-          :class="[$vuetify.breakpoint.xs ? 'subtitle-1' : 'title']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1']"
           v-html="current_question"
         ></p>
       </v-col>

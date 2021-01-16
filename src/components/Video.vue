@@ -11,31 +11,30 @@
           @ended="finished()"
           ref="videoclip"
         >
-          <source
-            src="https://i.rmbl.ws/s8/2/L/g/e/q/Lgeqb.caa.1.mp4"
-            type="video/mp4"
-          />
+          <source src="/video/clip.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
       </v-col>
-      <v-col cols="12" class="mt-5" v-if="isFinished">
-        <p
-          class=" font-weight-medium"
-          :class="[$vuetify.breakpoint.sm ? 'subtitle-1' : 'subtitle-2']"
-        >
-          {{ $t("home.presentation") }}
-        </p>
-        <v-btn
-          color="red"
-          class="my-2 white--text"
-          large
-          type="submit"
-          @click.prevent="next"
-        >
-          {{ $t("second.next_button") }}
-        </v-btn>
-      </v-col>
+      <transition name="scale-transition">
+        <v-col cols="8" class="mt-6" v-if="isFinished">
+          <p
+            class=" font-weight-medium"
+            :class="[$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1']"
+          >
+            {{ $t("home.presentation") }}
+          </p>
+          <v-btn
+            color="red"
+            class="my-2 white--text"
+            large
+            type="submit"
+            @click.prevent="next"
+          >
+            {{ $t("second.next_button") }}
+          </v-btn>
+        </v-col>
+      </transition>
     </v-row>
   </v-container>
 </template>
@@ -48,8 +47,8 @@ export default {
       isFinished: false,
     };
   },
-  components:{
-    Language
+  components: {
+    Language,
   },
   methods: {
     next() {

@@ -4,7 +4,7 @@
       <v-col class="my-1" cols="6">
         <h1
           class="mb-6"
-          :class="[$vuetify.breakpoint.sm ? 'text-h3' : 'text-h5']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'text-h3' : 'text-h5']"
         >
           {{ $t("first.title") }}
         </h1>

@@ -17,7 +17,7 @@
           >
             <div
               class="font-weight-black"
-              :class="$vuetify.breakpoint.xs ? 'subtitle-1' : 'title'"
+              :class="$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1'"
             >
               Test id: <span v-text="test_id"></span>
             </div>

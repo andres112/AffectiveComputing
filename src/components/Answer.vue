@@ -4,7 +4,7 @@
       <v-col class="my-2" cols="6">
         <p
           class="font-weight-medium"
-          :class="[$vuetify.breakpoint.xs ? 'subtitle-1' : 'title']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1']"
           v-html="current_answer[$i18n.locale]"
         ></p>
       </v-col>
@@ -37,12 +37,7 @@
         cols="10"
         v-if="current_answer.audio"
       >
-        <audio
-          controls
-          :src="current_answer.audio"
-          preload="auto"
-          autoplay
-        >
+        <audio controls :src="current_answer.audio" preload="auto" autoplay>
           Your browser does not support the audio tag.
         </audio>
       </v-col>

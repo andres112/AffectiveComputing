@@ -20,7 +20,7 @@
       "error_required": "This answer is required!.",
       "submmit_button": "Next"
     },
-    "second":{
+    "second": {
       "section": "Crisis Situation",
       "next_button": "Next"
     },
@@ -30,8 +30,11 @@
       "no": "No",
       "next_button": "Next"
     },
-    "final":{
-      "section": "Questionnaire"
+    "final": {
+      "section": "Questionnaire",
+      "title": "Thanks!<br/> We're almost done",
+      "description": "Below you will find a link to a small questionnaire. Please answer it in order to complete the evaluation completely.",
+      "link": "Questionnaire"
     }
   },
   "es": {
@@ -55,7 +58,7 @@
       "error_required": "Esta respuesta es requerida!.",
       "submmit_button": "Continuar"
     },
-    "second":{
+    "second": {
       "section": "Situación de Crisis",
       "next_button": "Continuar"
     },
@@ -65,8 +68,11 @@
       "no": "No",
       "next_button": "Continuar"
     },
-    "final":{
-      "section": "Cuestionario"
+    "final": {
+      "section": "Cuestionario",
+      "title": "Gracias!<br/> Ya casi terminamos",
+      "description": "A continuación, se encuentra un enlace a un pequeño cuestionario. Por favor respóndelo con el fin de terminar con la evaluación completamente.",
+      "link": "Cuestionario"
     }
   }
 }

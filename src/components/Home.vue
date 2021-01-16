@@ -4,19 +4,19 @@
       <v-col class="my-1" cols="10" sm="6" align-self="center">
         <h1
           class="font-weight-bold mb-3 "
-          :class="[$vuetify.breakpoint.sm ? 'display-3' : 'display-6']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'display-3' : 'display-6']"
         >
           {{ $t("home.title") }}
         </h1>
         <p
           class=" font-weight-medium"
-          :class="[$vuetify.breakpoint.sm ? 'subtitle-1' : 'subtitle-2']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'subtitle-1' : 'subtitle-2']"
         >
           {{ $t("home.presentation") }}
         </p>
         <p
           class="font-weight-medium"
-          :class="[$vuetify.breakpoint.sm ? 'subtitle-1' : 'subtitle-2']"
+          :class="[$vuetify.breakpoint.smAndUp ? 'subtitle-1' : 'subtitle-2']"
           v-html="$t('home.advice')"
         ></p>
       </v-col>
