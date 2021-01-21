@@ -1,11 +1,12 @@
 <template>
   <v-container>
     <language v-if="isFinished"></language>
-    <v-row class="mt-10 text-center" justify="center">
-      <v-col class="my-1 d-flex justify-center" cols="12" v-if="!isFinished">
+    <v-row class="text-center" justify="center">
+      <v-col class="my-1 d-flex justify-center" cols="11" v-if="!isFinished">
         <video
           controls
           width="100%"
+          height="90%"
           autoplay
           preload="auto"
           @ended="finished()"
@@ -17,7 +18,7 @@
         </video>
       </v-col>
       <transition name="scale-transition">
-        <v-col cols="8" class="mt-6" v-if="isFinished">
+        <v-col cols="8" class="mt-10" v-if="isFinished">
           <p
             class=" font-weight-medium"
             :class="[$vuetify.breakpoint.smAndUp ? 'title' : 'subtitle-1']"
