@@ -19,6 +19,10 @@
           :class="[$vuetify.breakpoint.smAndUp ? 'subtitle-1' : 'subtitle-2']"
           v-html="$t('home.advice')"
         ></p>
+        <p
+          :class="[$vuetify.breakpoint.smAndUp ? 'subtitle-2' : 'caption']"
+          v-html="$t('home.disclaimer')"
+        ></p>
       </v-col>
       <v-col cols="12">
         <v-btn

@@ -3,8 +3,9 @@
     "home": {
       "section": "Home",
       "title": "Welcome",
-      "presentation": "Next, a simple interaction with your device will be presented, in order to evaluate in a very simple way aspects of empathy between human and machine, for which first you will have to answer a small group of questions and then a short interaction with the machine will be performed based on your answers.",
-      "advice": "The answers given here will be treated anonymously, so please try to be as honest as possible.<br/> Please do not return after advancing between sections, otherwise the test will be affected.",
+      "presentation": "Next, a simple interaction with your device will be presented in order to evaluate aspects of empathy between a human and an artificial agent, whereby you will first answer a small set of questions and then perform a short interaction with the agent based on your answers.",
+      "advice": "The evaluation will be treated anonymously, so please be as honest as possible in your answers. <br/> Please do not attempt to go back after advancing between sections, because the evaluation may be affected. <br/>",
+      "disclaimer": "<u>Informed Consent</u><br/>I certify that I have been clearly and truthfully informed about the course and process of the research, its objectives and procedures. That I act consciously, freely and voluntarily as a participant in this research by contributing to the data collection phase.  I am aware of the sufficient autonomy that I have to refrain from answering all or part of the questions that are asked of me and to dispense with my collaboration when I consider it appropriate and without the need for any justification.<br/>That the good faith, confidentiality and privacy of the information provided by me will be respected, as well as my physical and psychological safety.",
       "start-button": "Start",
       "testID_alert": "Test ID copied!"
     },
@@ -42,8 +43,9 @@
     "home": {
       "section": "Inicio",
       "title": "Bienvenid@",
-      "presentation": "A continuación, se presentarán una simple interacción con tu dispositivo, con el fin de evaluar de manera muy simple aspectos de empatía entre ser humano y máquina, para lo cual primero deberás responderán a un pequeño grupo de preguntas y luego se realizara una corta interacción con la maquina basada en tus respuestas.",
-      "advice": "Las respuestas dadas aquí, serán tratadas de manera anónima, por lo cual pedimos por favor intenta ser lo más honesto posible al respecto. <br/> Por favor después de avanzar entre secciones no regrese, sino el Test se verá afectado.",
+      "presentation": "A continuación, se presentarán una simple interacción con tu dispositivo, con el fin de evaluar de manera aspectos de empatía entre el ser humano y un agente artificial, por lo cual, primero deberás responder a un pequeño grupo de preguntas y luego realizar una corta interacción con el agente basada en tus respuestas.",
+      "advice": "La evaluación será tratada de manera anónima, por lo tanto se pide la mayor honestidad posible en sus respuestas. <br/> Por favor después de avanzar entre las secciones no intente regresar, debido a que la evaluación se podría ver afectada. <br/> ",
+      "disclaimer": "<u>Consentimiento Informado</u><br/>Certifico que he sido informado(a) con la claridad y veracidad debida respecto al curso y proceso de la investigación, sus objetivos y procedimientos. Que actúo consciente, libre y voluntariamente como participante de la presente investigación contribuyendo a la fase de recolección de la información.  Soy conocedor (a) de la autonomía suficiente que poseo para abstenerme de responder total o parcialmente las preguntas que me sean formuladas y a prescindir de mi colaboración cuando a bien lo considere y sin necesidad de justificación alguna.<br/>Que se respetará la buena fe, la confidencialidad e intimidad de la información por mí suministrada, lo mismo que mi seguridad física y psicológica.",
       "start-button": "Comenzar",
       "testID_alert": "Test ID copiado!"
     },
