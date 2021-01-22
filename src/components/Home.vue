@@ -47,7 +47,9 @@ import { mapActions } from "vuex";
 export default {
   name: "Home",
 
-  data: () => ({}),
+  data: () => ({
+    disclaimer: false,
+  }),
 
   methods: {
     ...mapActions(["setTest"]),
