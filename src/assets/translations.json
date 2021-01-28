@@ -37,6 +37,9 @@
       "title": "Thanks!<br/> We're almost done",
       "description": "Below you will find a link to a small questionnaire. Please answer it in order to complete the evaluation completely.",
       "link": "Questionnaire"
+    },
+    "end":{
+      "title":"The research has finished, thank you!"
     }
   },
   "es": {
@@ -77,6 +80,9 @@
       "title": "Gracias!<br/> Ya casi terminamos",
       "description": "A continuación, se encuentra un enlace a un pequeño cuestionario. Por favor respóndelo con el fin de terminar con la evaluación completamente.",
       "link": "Cuestionario"
+    },
+    "end":{
+      "title":"El estudio a finalizado, gracias!"
     }
   }
 }

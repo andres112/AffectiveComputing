@@ -16,3 +16,15 @@ export const copyText = async function(text) {
     console.log(error);
   }
 };
+
+export const getReport = function() {
+  const report = require("@/assets/report.json");
+
+  for (const [key, value] of Object.entries(report.tests)) {
+    console.log(
+      `${key}: ${value.empathy_mode} ${JSON.stringify(
+        value.user
+      )}, time: ${new Date(value.start_time)}`
+    );
+  }
+};

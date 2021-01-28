@@ -1,0 +1,709 @@
+{
+  "tests" : {
+    "120817" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611357892263,
+      "test_id" : 120817,
+      "user" : {
+        "age" : 32,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "pos"
+      }
+    },
+    "176959" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611581572821,
+      "test_id" : 176959,
+      "user" : {
+        "age" : 30,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "184728" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611582657177,
+      "test_id" : 184728,
+      "user" : {
+        "age" : 41,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "none"
+      }
+    },
+    "188944" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611365936198,
+      "test_id" : 188944,
+      "user" : {
+        "age" : 35,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "ex",
+        "valence" : "none"
+      }
+    },
+    "213592" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611360633411,
+      "test_id" : 213592,
+      "user" : {
+        "age" : 33,
+        "day_mood" : "nor",
+        "emotion" : "disgust",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "none"
+      }
+    },
+    "259772" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "no"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611578853891,
+      "test_id" : 259772,
+      "user" : {
+        "age" : 27,
+        "day_mood" : "bad",
+        "emotion" : "disgust",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "261174" : {
+      "empathy_mode" : false,
+      "start_time" : 1611579012850,
+      "test_id" : 261174
+    },
+    "295639" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611588388686,
+      "test_id" : 295639,
+      "user" : {
+        "age" : 100,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "330316" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611655588043,
+      "test_id" : 330316,
+      "user" : {
+        "age" : 27,
+        "day_mood" : "nor",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "neg"
+      }
+    },
+    "338183" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611358794833,
+      "test_id" : 338183,
+      "user" : {
+        "age" : 36,
+        "day_mood" : "goo",
+        "emotion" : "sadness",
+        "gender" : "m",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "359153" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "no",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611357590651,
+      "test_id" : 359153,
+      "user" : {
+        "age" : 33,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "am",
+        "valence" : "pos"
+      }
+    },
+    "386811" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611580513441,
+      "test_id" : 386811,
+      "user" : {
+        "age" : 30,
+        "day_mood" : "nor",
+        "emotion" : "sadness",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "none"
+      }
+    },
+    "468530" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611415752706,
+      "test_id" : 468530,
+      "user" : {
+        "age" : 25,
+        "day_mood" : "nor",
+        "emotion" : "disgust",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "none"
+      }
+    },
+    "494237" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611596402899,
+      "test_id" : 494237,
+      "user" : {
+        "age" : 36,
+        "day_mood" : "goo",
+        "emotion" : "fear",
+        "gender" : "m",
+        "personality" : "in",
+        "valence" : "none"
+      }
+    },
+    "517833" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611370044807,
+      "test_id" : 517833,
+      "user" : {
+        "age" : 29,
+        "day_mood" : "exc",
+        "emotion" : "surprise",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "526487" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611579017196,
+      "test_id" : 526487,
+      "user" : {
+        "age" : 27,
+        "day_mood" : "bad",
+        "emotion" : "sadness",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "550491" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611588417454,
+      "test_id" : 550491,
+      "user" : {
+        "age" : 34,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "562562" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611344785726,
+      "test_id" : 562562,
+      "user" : {
+        "age" : 98,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "563072" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611581872006,
+      "test_id" : 563072,
+      "user" : {
+        "age" : 33,
+        "day_mood" : "nor",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "none"
+      }
+    },
+    "581541" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611583277500,
+      "test_id" : 581541,
+      "user" : {
+        "age" : 26,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "591955" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611588251567,
+      "test_id" : 591955,
+      "user" : {
+        "age" : 34,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "601315" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611344757023,
+      "test_id" : 601315,
+      "user" : {
+        "age" : 37,
+        "day_mood" : "nor",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "682273" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611626939560,
+      "test_id" : 682273,
+      "user" : {
+        "age" : 27,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "693003" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611500753410,
+      "test_id" : 693003,
+      "user" : {
+        "age" : 60,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "am",
+        "valence" : "pos"
+      }
+    },
+    "753147" : {
+      "dialog" : {
+        "q1" : "no",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611426826935,
+      "test_id" : 753147,
+      "user" : {
+        "age" : 59,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "760965" : {
+      "dialog" : {
+        "q1" : "no",
+        "q2" : "yes",
+        "q3" : "no",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611501730075,
+      "test_id" : 760965,
+      "user" : {
+        "age" : 49,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "am",
+        "valence" : "pos"
+      }
+    },
+    "766612" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "no",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611585264340,
+      "test_id" : 766612,
+      "user" : {
+        "age" : 10,
+        "day_mood" : "nor",
+        "emotion" : "fear",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "none"
+      }
+    },
+    "788697" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611636624458,
+      "test_id" : 788697,
+      "user" : {
+        "age" : 31,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "797243" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611361990351,
+      "test_id" : 797243,
+      "user" : {
+        "age" : 31,
+        "day_mood" : "nor",
+        "emotion" : "fear",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "none"
+      }
+    },
+    "841020" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "no",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611690387607,
+      "test_id" : 841020,
+      "user" : {
+        "age" : 20,
+        "day_mood" : "goo",
+        "emotion" : "disgust",
+        "gender" : "m",
+        "personality" : "ex",
+        "valence" : "none"
+      }
+    },
+    "889435" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611656212529,
+      "test_id" : 889435,
+      "user" : {
+        "age" : 24,
+        "day_mood" : "bad",
+        "emotion" : "disgust",
+        "gender" : "f",
+        "personality" : "am",
+        "valence" : "pos"
+      }
+    },
+    "906120" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611840965416,
+      "test_id" : 906120,
+      "user" : {
+        "age" : 30,
+        "day_mood" : "goo",
+        "emotion" : "happy",
+        "gender" : "m",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "947680" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611608085791,
+      "test_id" : 947680,
+      "user" : {
+        "age" : 31,
+        "day_mood" : "exc",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "ex",
+        "valence" : "pos"
+      }
+    },
+    "961293" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611751420258,
+      "test_id" : 961293,
+      "user" : {
+        "age" : 26,
+        "day_mood" : "nor",
+        "emotion" : "surprise",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "994465" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "yes",
+        "q5" : "yes"
+      },
+      "empathy_mode" : true,
+      "start_time" : 1611582375250,
+      "test_id" : 994465,
+      "user" : {
+        "age" : 27,
+        "day_mood" : "nor",
+        "emotion" : "happy",
+        "gender" : "f",
+        "personality" : "in",
+        "valence" : "pos"
+      }
+    },
+    "999493" : {
+      "dialog" : {
+        "q1" : "yes",
+        "q2" : "yes",
+        "q3" : "yes",
+        "q4" : "no",
+        "q5" : "yes"
+      },
+      "empathy_mode" : false,
+      "start_time" : 1611359758649,
+      "test_id" : 999493,
+      "user" : {
+        "age" : 10,
+        "day_mood" : "goo",
+        "emotion" : "fear",
+        "gender" : "m",
+        "personality" : "in",
+        "valence" : "none"
+      }
+    }
+  }
+}
